@@ -25,6 +25,8 @@ if (process.env.MONGO_URI) {
 }
 
 
+console.log( process.env.CLIENT_ID)
+console.log( process.env.CLIENT_SECRET)
 
 const adapter = new SlackAdapter({
     // REMOVE THIS OPTION AFTER YOU HAVE CONFIGURED YOUR APP!
